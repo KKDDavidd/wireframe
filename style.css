@@ -1,3 +1,19 @@
 html {
     scroll-behavior:smooth;
 }
+.card {
+    margin-bottom: 25px;
+}
+.hatter{
+    background-image: url(img/hatter.png);
+}
+.focim{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+.cimke{
+    font-size: 20px
+}

@@ -1,176 +1,224 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Labda</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labda</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav class="navbar bg-body-tertiary" style="height: 10vh;">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1" style="font-size: 200%;">Labdák</span>
-    </div>
+  <nav class="navbar bg-body-tertiary hatter" style="height: 10vh;">
+      <p class="mb-0 h1 focim">Labdák</p>
   </nav>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#foci">Futball-labda</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#kosar">Kosárlabda</a>
+            <a class="nav-link" href="#foci"><p class="cimke">Futball-labda</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#vizilabda">Vízilabda</a>
+            <a class="nav-link" href="#kosar"><p class="cimke">Kosárlabda</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#roplabda">Röplabda</a>
+            <a class="nav-link" href="#vizilabda"><p class="cimke">Vízilabda</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#amerikai">Amerikai Futball-labda</a>
+            <a class="nav-link" href="#roplabda"><p class="cimke">Röplabda</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#amerikai"><p class="cimke">Amerikai Futball-labda</p></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-    <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title" id="amerikai">Amerikai Futball-labda</h5>
-                  <p class="card-text">Az amerikai futball-labda hosszúkás, ovális alakú, ami segíti a játékosokat a passzolásban és a futás közbeni irányításban. Általában bőrből készül, és az egyik oldala sima, míg a másik oldalon kis hornyok találhatóak, amelyek biztosítják a jobb tapadást. A forma és a tapadás lehetővé teszi, hogy könnyen irányítható legyen a levegőben.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bandylabda</h5>
-                  <p class="card-text">A bandylabda egy kisebb, keményebb labda, amelyet a téli sportág, a bandy során használnak. Általában műanyagból vagy hasonló anyagból készül, és sokkal kisebb, mint a jégkoronglabda. A labda sima felülete és viszonylag kis mérete segít a gyors mozgásban, mivel a bandy gyors tempójú sport.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Baseball-labda</h5>
-                  <p class="card-text">A baseball-labda fehér bőrrel van bevonva, és körülbelül 23 cm kerületű. Két fő eleme van: a belső gumimagos középső rész és a bőrkülső, amelyet speciális varrások kötnek össze. A labda kemény, és a baseball játék során gyakran gyorsan és nagy erővel ütik.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title" id="foci">Futball-labda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Golflabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title" id="kosar">Kosárlabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Pingponglabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Rögbilabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title" id="roplabda">Röplabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Teniszlabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Tollaslabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title" id="vizilabda">Vízilabda</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-              </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/AMFutball.jpg" class="card-img-top" alt="Amerikai Futball-labda">
+          <div class="card-body">
+            <h5 class="card-title" id="amerikai">Amerikai Futball-labda</h5>
+            <p class="card-text">Az amerikai futball-labda hosszúkás, ovális alakú, ami segíti a játékosokat a
+              passzolásban és a futás közbeni irányításban. Általában bőrből készül, és az egyik oldala sima, míg a
+              másik oldalon kis hornyok találhatóak, amelyek biztosítják a jobb tapadást. A forma és a tapadás lehetővé
+              teszi, hogy könnyen irányítható legyen a levegőben.</p>
           </div>
         </div>
       </div>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
-            <svg class="bi" width="30" height="24" aria-hidden="true">
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a> 
-          <span class="mb-3 mb-md-0 text-body-secondary">készítette: Simai Botond, Heizler Zalán, Kovács Dávid</span>
-        </div> 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <p>Soruces: <a class="text-body-secondary" href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" aria-label="ChatGPT" target="_blank">wikipedia</a>, <a class="text-body-secondary" href="https://chatgpt.com/" aria-label="ChatGPT" target="_blank">ChatGPT</a></p>
-          </li>
-          <li class="ms-3">
-            <a class="text-body-secondary" href="#" aria-label="Facebook">
-              <svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use>
-              </svg>
-            </a>
-          </li>
-        </ul> 
-      </footer>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Bandyball1.jpg" class="card-img-top" alt="Bandylabda">
+          <div class="card-body">
+            <h5 class="card-title">Bandylabda</h5>
+            <p class="card-text">A bandylabda egy kisebb, keményebb labda, amelyet a téli sportág, a bandy során
+              használnak. Általában műanyagból vagy hasonló anyagból készül, és sokkal kisebb, mint a jégkoronglabda. A
+              labda sima felülete és viszonylag kis mérete segít a gyors mozgásban, mivel a bandy gyors tempójú sport.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Baseball_(crop).jpg" class="card-img-top" alt="Baseball-labda">
+          <div class="card-body">
+            <h5 class="card-title">Baseball-labda</h5>
+            <p class="card-text">A baseball-labda fehér bőrrel van bevonva, és körülbelül 23 cm kerületű. Két fő eleme
+              van: a belső gumimagos középső rész és a bőrkülső, amelyet speciális varrások kötnek össze. A labda
+              kemény, és a baseball játék során gyakran gyorsan és nagy erővel ütik.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Generic_football.png" class="card-img-top" alt="Futball-labda">
+          <div class="card-body">
+            <h5 class="card-title" id="foci">Futball-labda</h5>
+            <p class="card-text">A futball-labda hivatalosan gömb alakú, és a külső borítását általában 32 panelből álló
+              mintázat alkotja a megfelelő aerodinamika érdekében. A labdát úgy tervezték, hogy jól lehessen rúgni,
+              fejelni és vezetni a pályán a mérkőzés teljes ideje alatt. A standard felnőtt labdának a szabályok szerint
+              68 és 70 centiméter közötti kerülettel kell rendelkeznie.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Golfball.jpg" class="card-img-top" alt="Golfball">
+          <div class="card-body">
+            <h5 class="card-title">Golflabda</h5>
+            <p class="card-text">A golflabda kis tömegű, de rendkívül kemény szerkezetű, ami lehetővé teszi a nagy
+              sebességű elütést a golfütővel. A labda felületén lévő rengeteg mélyedés (dimple) azért szükséges, hogy
+              csökkentse a légellenállást, és maximalizálja a repülési távolságot. A szabályos golflabda átmérője nem
+              lehet kisebb 42,67 milliméternél.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Basketball.png" class="card-img-top" alt="Kosárlabda">
+          <div class="card-body">
+            <h5 class="card-title" id="kosar">Kosárlabda</h5>
+            <p class="card-text">A kosárlabda egy nagy, felfújható labda, melynek a felülete bőr, gumi vagy kompozit
+              anyag lehet, sötét bordákkal. A labdát a kezünkkel kell pattogtatni és passzolni, miközben a cél a
+              palánkon lévő gyűrűbe dobás. A hivatalos kosárlabda mérete és súlya eltérő lehet a férfi, női és ifjúsági
+              bajnokságokban.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Tischtennisball-weiss-004.jpg" class="card-img-top" alt="Pingponglabda">
+          <div class="card-body">
+            <h5 class="card-title">Pingponglabda</h5>
+            <p class="card-text">A pingponglabda vagy asztalitenisz-labda rendkívül könnyű, üreges, gömb alakú műanyag
+              test. Általában fehér vagy narancssárga színű, és a játék közben a pörgetések miatt kiszámíthatatlanul
+              viselkedik. A nemzetközi versenyeken használt hivatalos labdának 40 milliméteres átmérőjűnek kell lennie.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Ballon-rugby-paris-adidas.jpg" class="card-img-top" alt="Rögbilabda">
+          <div class="card-body">
+            <h5 class="card-title">Rögbilabda</h5>
+            <p class="card-text">A rögbilabda formája jellegzetesen ovális, nem gömbölyű, ami megnehezíti a kiszámítható
+              pattogását és dobását. A labda anyaga általában bőr vagy szintetikus bőr, a felületét gyakran mélyedések
+              vagy barázdák borítják a jobb tapadás érdekében. Az egyedi forma lehetővé teszi, hogy a játékosok könnyen
+              magukhoz öleljék és elszállítsák futás közben.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Volleyball.jpg" class="card-img-top" alt="Röplabda">
+          <div class="card-body">
+            <h5 class="card-title" id="roplabda">Röplabda</h5>
+            <p class="card-text">A röplabda egy gömb alakú, puha labda, melynek anyaga általában szintetikus bőr vagy
+              kompozit anyag. A labda felülete általában 18 panelből áll, ami biztosítja a stabil és kiszámítható
+              repülést a háló felett. A hivatalos röplabda kerülete 65–67 centiméter, súlya pedig 260–280 gramm között
+              mozog.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Tennis_ball_01.jpg" class="card-img-top" alt="Teniszlabda">
+          <div class="card-body">
+            <h5 class="card-title">Teniszlabda</h5>
+            <p class="card-text">A teniszlabda egy kis méretű, üreges labda, melyet nagy nyomású levegővel fújnak fel a
+              megfelelő pattanóképesség érdekében. Külső borítását általában élénksárga vagy fehér színű filc réteg
+              alkotja, amely lassítja a labda mozgását a levegőben. A filc borítás idővel elkopik, ami befolyásolja a
+              labda sebességét és pörgését.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/ShuttlecockPhoto.jpg" class="card-img-top" alt="Tollaslabda">
+          <div class="card-body">
+            <h5 class="card-title">Tollaslabda</h5>
+            <p class="card-text">A tollaslabda nem tipikus labda, hanem egy kúp alakú tárgy, amely tollakból vagy
+              műanyag szoknyából áll. A labda elülső részén egy félgömb alakú parafa vagy gumi fej található, amibe az
+              ütővel ütni kell. Ez a szerkezet rendkívül nagy légellenállást fejt ki, így a labda rövidebb távolságot
+              tesz meg, és gyorsabban lelassul.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/Waterpolo_ball.jpg" class="card-img-top" alt="Vizilabda">
+          <div class="card-body">
+            <h5 class="card-title" id="vizilabda">Vízilabda</h5>
+            <p class="card-text">A vízilabdát gömb alakú, vízálló anyagból készült labda, melynek felülete érdesített a
+              jobb fogás érdekében vizes közegben. A labda mérete és anyaga biztosítja, hogy megfelelően fennmaradjon a
+              víz felszínén és jól lehessen dobni nagy távolságra is. A felnőtt férfi vízilabdában használt hivatalos
+              labda nagyobb, mint a női vagy ifjúsági mérkőzéseken alkalmazott labdák.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+        <svg class="bi" width="30" height="24" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">készítette: Simai Botond, Heizler Zalán, Kovács Dávid</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <p>Soruces: <a class="text-body-secondary" href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap"
+            aria-label="ChatGPT" target="_blank">wikipedia</a>, <a class="text-body-secondary"
+            href="https://chatgpt.com/" aria-label="ChatGPT" target="_blank">ChatGPT</a></p>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#" aria-label="Facebook">
+          <svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
+
 </html>
