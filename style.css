@@ -23,6 +23,16 @@ body{
 .kardok{
     background-color: #569DAA;
 }
+.teksztkard{
+    min-height: 35vh;
+    padding-bottom: 0vh;
+}
 .tekszt{
     background-color: #569DAA;
+}
+.kardtexas{
+    padding-bottom: 0vh;
+}
+.kep{
+    height: 20vh;
 }
