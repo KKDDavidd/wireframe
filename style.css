@@ -42,3 +42,8 @@ footer{
 .navcolor{
     background-color: #569DAA;
 }
+@media (max-width: 600px) {
+    .kep {
+        display: none;
+    }
+}
